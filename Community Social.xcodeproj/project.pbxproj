@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402FCC4D1EC7786600BE9DB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402FCC4C1EC7786600BE9DB7 /* Constants.swift */; };
+		402FCC4F1EC778F200BE9DB7 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402FCC4E1EC778F200BE9DB7 /* CustomView.swift */; };
+		402FCC511EC77B7A00BE9DB7 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402FCC501EC77B7A00BE9DB7 /* CustomImageView.swift */; };
+		402FCC531EC77D8C00BE9DB7 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402FCC521EC77D8C00BE9DB7 /* CustomLabel.swift */; };
+		402FCC551EC77FAC00BE9DB7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402FCC541EC77FAC00BE9DB7 /* CustomButton.swift */; };
 		408605251EC570C10058E564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408605241EC570C10058E564 /* AppDelegate.swift */; };
 		408605271EC570C10058E564 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408605261EC570C10058E564 /* SignInVC.swift */; };
 		4086052A1EC570C10058E564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408605281EC570C10058E564 /* Main.storyboard */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		402FCC4C1EC7786600BE9DB7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		402FCC4E1EC778F200BE9DB7 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		402FCC501EC77B7A00BE9DB7 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		402FCC521EC77D8C00BE9DB7 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		402FCC541EC77FAC00BE9DB7 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		408605211EC570C10058E564 /* Community Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Community Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		408605241EC570C10058E564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408605261EC570C10058E564 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -42,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402FCC4B1EC7784E00BE9DB7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				402FCC4C1EC7786600BE9DB7 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		408605181EC570C10058E564 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +81,7 @@
 		408605231EC570C10058E564 /* Community Social */ = {
 			isa = PBXGroup;
 			children = (
+				402FCC4B1EC7784E00BE9DB7 /* Util */,
 				4086053A1EC577100058E564 /* Model */,
 				408605391EC577050058E564 /* View */,
 				408605381EC576F00058E564 /* Controller */,
@@ -87,6 +106,10 @@
 		408605391EC577050058E564 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				402FCC4E1EC778F200BE9DB7 /* CustomView.swift */,
+				402FCC501EC77B7A00BE9DB7 /* CustomImageView.swift */,
+				402FCC521EC77D8C00BE9DB7 /* CustomLabel.swift */,
+				402FCC541EC77FAC00BE9DB7 /* CustomButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -241,7 +264,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				408605271EC570C10058E564 /* SignInVC.swift in Sources */,
+				402FCC531EC77D8C00BE9DB7 /* CustomLabel.swift in Sources */,
+				402FCC4F1EC778F200BE9DB7 /* CustomView.swift in Sources */,
 				408605251EC570C10058E564 /* AppDelegate.swift in Sources */,
+				402FCC551EC77FAC00BE9DB7 /* CustomButton.swift in Sources */,
+				402FCC4D1EC7786600BE9DB7 /* Constants.swift in Sources */,
+				402FCC511EC77B7A00BE9DB7 /* CustomImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

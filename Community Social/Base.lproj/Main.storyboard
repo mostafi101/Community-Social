@@ -22,13 +22,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yXm-iW-zXi">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yXm-iW-zXi" customClass="CustomView" customModule="Community_Social" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Emi-lU-wnw">
                                         <rect key="frame" x="14" y="14" width="359" height="103"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mum" translatesAutoresizingMaskIntoConstraints="NO" id="JJd-Uk-NMg">
+                                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mum" translatesAutoresizingMaskIntoConstraints="NO" id="JJd-Uk-NMg" customClass="CustomImageView" customModule="Community_Social" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="3" width="100" height="100"/>
                                                 <color key="backgroundColor" red="0.0" green="0.8980392157" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -36,10 +36,10 @@
                                                     <constraint firstAttribute="width" constant="100" id="NzL-db-WLb"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MUM Community" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="mq8-Yk-xvf">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MUM Community" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="mq8-Yk-xvf" customClass="CustomLabel" customModule="Community_Social" customModuleProvider="target">
                                                 <rect key="frame" x="100" y="0.0" width="259" height="103"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -57,10 +57,10 @@
                                     <constraint firstItem="Emi-lU-wnw" firstAttribute="top" secondItem="yXm-iW-zXi" secondAttribute="top" constant="14" id="yyJ-dv-AfS"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gvc-hc-mjy">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gvc-hc-mjy" customClass="CustomView" customModule="Community_Social" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="592" width="375" height="75"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you haven't signed in before, an account will be automatically created for you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ZQ-aq-wtk">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you haven't signed in before, an account will be automatically created for you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ZQ-aq-wtk" customClass="CustomLabel" customModule="Community_Social" customModuleProvider="target">
                                         <rect key="frame" x="8" y="8" width="359" height="59"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -91,11 +91,11 @@
                                     <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="173-On-91P">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="189"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzc-aD-Cfo">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzc-aD-Cfo" customClass="CustomButton" customModule="Community_Social" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="189"/>
                                                 <state key="normal" image="fb"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hzj-Af-lDw">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hzj-Af-lDw" customClass="CustomButton" customModule="Community_Social" customModuleProvider="target">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="189"/>
                                                 <state key="normal" image="Twitter"/>
                                             </button>
@@ -104,11 +104,11 @@
                                     <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NVJ-5q-xb6">
                                         <rect key="frame" x="0.0" y="199" width="343" height="189"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZY-9d-Oei">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZY-9d-Oei" customClass="CustomButton" customModule="Community_Social" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="189"/>
                                                 <state key="normal" image="linkedin"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="veY-Mx-dTd">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="veY-Mx-dTd" customClass="CustomButton" customModule="Community_Social" customModuleProvider="target">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="189"/>
                                                 <state key="normal" image="github"/>
                                             </button>
@@ -134,6 +134,9 @@
                             <constraint firstItem="gvc-hc-mjy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pkH-WV-ukW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageLogo" destination="JJd-Uk-NMg" id="oaS-Kx-eI3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

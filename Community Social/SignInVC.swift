@@ -9,10 +9,13 @@
 import UIKit
 
 class SignInVC: UIViewController {
+    @IBOutlet weak var imageLogo: CustomImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //self.imageLogo.layer.cornerRadius = self.imageLogo.frame.size.width/2
+        //self.imageLogo.clipsToBounds = true
     }
 
     override func didReceiveMemoryWarning() {
